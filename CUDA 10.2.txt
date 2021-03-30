@@ -1,6 +1,7 @@
 CUDA 10.2 Nvidia Link&Run
 
 sudo apt remove nvidia-*
+sudo apt-get remove --purge nvidia
 sudo apt autoremove
 
 wget https://developer.download.nvidia.com/compute/cuda/10.2/Prod/local_installers/cuda_10.2.89_440.33.01_linux.run
