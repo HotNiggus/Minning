@@ -1,7 +1,5 @@
-CUDA 10.2 Nvidia Link&Run
+#!/bin/sh
 
-sudo apt remove nvidia-*
-sudo apt-get remove --purge nvidia
 sudo apt purge *nvidia*
 sudo apt autoremove
 
