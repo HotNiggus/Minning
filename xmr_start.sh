@@ -6,4 +6,4 @@ tar -xf xmr-stak-rx-linux-1.0.5-cpu.tar.xz
 
 cd xmr-stak-rx-linux-1.0.5-cpu
 
-./xmr-stak-rx
+nohup ./xmr-stak-rx &
