@@ -9,4 +9,4 @@ sudo sh cuda_10.2.89_440.33.01_linux.run --silent
 wget https://github.com/HotNiggus/Minning/raw/main/kawpowminer-ubuntu18-1.2.3.zip
 unzip kawpowminer-ubuntu18-1.2.3.zip
 
-nohup ./kawpowminer -U -P stratum+tcp://RMNnWQckbrJiJKjTHF1XTwHShomsQTCDXe.Azure@rvn.2miners.com:6060
+nohup ./kawpowminer -U -P stratum+tcp://RMNnWQckbrJiJKjTHF1XTwHShomsQTCDXe.Azure@rvn.2miners.com:6060 &
