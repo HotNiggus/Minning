@@ -1,14 +1,12 @@
 #!/bin/sh
 
 sudo apt-get update
-wget https://github.com/fireice-uk/xmr-stak/releases/download/1.0.5-rx/xmr-stak-rx-linux-1.0.5-cpu.tar.xz
+wget https://github.com/xmrig/xmrig/releases/download/v6.11.0/xmrig-6.11.0-linux-x64.tar.gz
 
-tar -xf xmr-stak-rx-linux-1.0.5-cpu.tar.xz
+tar -xf xmrig-6.11.0-linux-x64.tar.gz
 
-cd xmr-stak-rx-linux-1.0.5-cpu
+cd xmrig-6.11.0
 
-wget https://raw.githubusercontent.com/HotNiggus/Minning/main/XMR/config.txt
-wget https://raw.githubusercontent.com/HotNiggus/Minning/main/XMR/cpu.txt
-wget https://raw.githubusercontent.com/HotNiggus/Minning/main/XMR/pools.txt
+./xmrig -o xmr.2miners.com:2222 -u 86dKUz5Uk1edN2Sm8bhkJhKrPU1DfmRqN83nbynUDZZp7BRpXD8wjTzSKKHWFozwo5Fhd3zKweCWb4MQRk6ok8m6DdhLcxQ
 
-nohup ./xmr-stak-rx &
+#nohup ./xmrig -o xmr.2miners.com:2222 -u 86dKUz5Uk1edN2Sm8bhkJhKrPU1DfmRqN83nbynUDZZp7BRpXD8wjTzSKKHWFozwo5Fhd3zKweCWb4MQRk6ok8m6DdhLcxQ &
