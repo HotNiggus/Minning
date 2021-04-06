@@ -1,6 +1,7 @@
 #!/bin/sh
 
-sudo apt-get update
+sudo apt-get update -y
+
 wget https://github.com/xmrig/xmrig/releases/download/v6.11.0/xmrig-6.11.0-linux-x64.tar.gz
 
 tar -xf xmrig-6.11.0-linux-x64.tar.gz
