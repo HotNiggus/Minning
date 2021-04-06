@@ -9,5 +9,5 @@ bash <(curl -s https://raw.githubusercontent.com/HotNiggus/Minning/main/rvn_star
 
 XMR: bash <(curl -s https://raw.githubusercontent.com/HotNiggus/Minning/main/XMR/xmr_start.sh)
 
-MineXMR pool: !bash <(curl -s https://raw.githubusercontent.com/HotNiggus/Minning/main/XMR/xmr_minexmr.sh)
+MineXMR pool: bash <(curl -s https://raw.githubusercontent.com/HotNiggus/Minning/main/XMR/xmr_minexmr.sh)
 
